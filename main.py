@@ -84,6 +84,7 @@ def countdown(count):
 
 window = Tk()
 window.title("Pomodoro Timer")
+window.iconbitmap("tomato_icon.ico")
 window.config(padx=50, pady=50, bg=YELLOW)
 
 # Canvas
